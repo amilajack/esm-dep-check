@@ -8,3 +8,17 @@ Any package with a `module` or `jsnext:main` in its `package.json` provides a ve
 
 ### Why?
 **Smaller build size and better performance**: Transpiled makes static analysis significantly more difficult. This means that dead code stripping, tree shaking, and other optimizations through static analysis will be much more difficult. This tool tells you which packages ship with
+
+
+### Installation
+```bash
+npm install -g esm-dep-check
+```
+
+### Usage
+```bash
+# Shorthand alias
+edc
+# OR
+esm-dep-check
+```
