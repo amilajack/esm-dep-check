@@ -17,6 +17,15 @@
   },
   "dependencies": {
     "chalk": "^2.1.0",
+    "cli-table2": "^0.2.0",
     "commander": "^2.11.0"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-bliss": "^1.0.11"
+  },
+  "files": [
+    "src",
+    "index.js"
+  ]
 }
