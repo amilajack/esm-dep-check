@@ -1,0 +1,22 @@
+{
+  "name": "esm-dep-check",
+  "version": "0.0.1",
+  "description": "Check if your dependencies are using ES6 modules",
+  "repository": "https://github.com/amilajack/esm-dep-check",
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "edc": "index.js",
+    "esm-dep-check": "index.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0"
+  }
+}
