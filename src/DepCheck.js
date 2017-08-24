@@ -8,7 +8,7 @@ const usrPkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json
 
 const table = new Table({
   head: [chalk.bold.black('Dependency'), chalk.bold.black('"module"/"jsnext:main"')],
-  colWidths: [20, 30]
+  colWidths: [30, 30]
 });
 
 Object.keys(usrPkg.dependencies || {}).forEach((dep) => {
