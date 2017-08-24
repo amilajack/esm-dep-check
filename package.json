@@ -1,6 +1,6 @@
 {
   "name": "esm-dep-check",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if your dependencies are using ES6 modules",
   "repository": "https://github.com/amilajack/esm-dep-check",
   "author": "Amila Welihinda <amilajack@gmail.com>",
