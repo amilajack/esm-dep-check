@@ -5,10 +5,10 @@
   "repository": "https://github.com/amilajack/esm-dep-check",
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/DepCheck.js",
   "bin": {
-    "edc": "index.js",
-    "esm-dep-check": "index.js"
+    "edc": "cli.js",
+    "esm-dep-check": "cli.js"
   },
   "preferGlobal": true,
   "engines": {
@@ -26,6 +26,6 @@
   },
   "files": [
     "src",
-    "index.js"
+    "cli.js"
   ]
 }
