@@ -11,7 +11,7 @@ const table = new Table({
   colWidths: [30, 30]
 });
 
-Object.keys(usrPkg.dependencies || {}).forEach((dep) => {
+exports.default = Object.keys(usrPkg.dependencies || {}).map((dep) => {
   const pkgPath = path.join(process.cwd(), 'node_modules', dep, 'package.json');
   const pkg = JSON.parse(fs.readFileSync(pkgPath).toString());
 
@@ -22,6 +22,11 @@ Object.keys(usrPkg.dependencies || {}).forEach((dep) => {
         ? chalk.green('true')
         : chalk.red('false')
     ]);
+  }
+
+  return {
+    name: dep,
+    supportsEsm: 'dependencies' in pkg
   }
 });
 
