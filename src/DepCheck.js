@@ -9,7 +9,7 @@ exports.default = (userPkgPath = path.join(process.cwd(), 'package.json')) => {
       dependencies: []
     };
 
-  Object.keys(userPkg.dependencies || {}).map((dep) => {
+  return Object.keys(userPkg.dependencies || {}).map((dep) => {
     const pkgPath = path.join(process.cwd(), 'node_modules', dep, 'package.json');
     const pkg = JSON.parse(fs.readFileSync(pkgPath).toString());
 
