@@ -7,8 +7,8 @@
   "license": "MIT",
   "main": "src/DepCheck.js",
   "bin": {
-    "edc": "cli.js",
-    "esm-dep-check": "cli.js"
+    "edc": "edc.js",
+    "esm-dep-check": "edc.js"
   },
   "preferGlobal": true,
   "engines": {
