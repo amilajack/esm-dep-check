@@ -1,5 +1,6 @@
 esm-dep-check
 =============
+[![Build Status](https://travis-ci.org/amilajack/esm-dep-check.svg?branch=master)](https://travis-ci.org/amilajack/esm-dep-check)
 
 A micro utility that checks which of your dependencies use the `module` or `jsnext:main` property in their `package.json`.
 
