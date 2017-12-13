@@ -22,7 +22,11 @@
   },
   "devDependencies": {
     "eslint": "^4.13.1",
-    "eslint-config-bliss": "^1.0.20"
+    "eslint-config-bliss": "^1.0.20",
+    "jest-cli": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest ."
   },
   "files": [
     "src",

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`e2e should test basic snapshot 1`] = `
+Array [
+  Object {
+    "name": "chalk",
+    "supportsEsm": false,
+  },
+  Object {
+    "name": "cli-table2",
+    "supportsEsm": false,
+  },
+  Object {
+    "name": "commander",
+    "supportsEsm": false,
+  },
+]
+`;
