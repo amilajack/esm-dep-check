@@ -23,3 +23,24 @@ edc
 # OR
 esm-dep-check
 ```
+
+### Node API
+```js
+import edc from 'esm-dep-check';
+
+edc('./project/package.json')
+// [
+//   {
+//     "name": "chalk",
+//     "supportsEsm": false,
+//   },
+//   {
+//     "name": "cli-table2",
+//     "supportsEsm": false,
+//   },
+//   {
+//     "name": "commander",
+//     "supportsEsm": false,
+//   }
+// ]
+```
