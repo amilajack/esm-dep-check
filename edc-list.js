@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const chalk = require('chalk');
-const Table = require('cli-table2');
+const Table = require('cli-table3');
 const depCheck = require('./src/DepCheck').default;
 
 if (fs.existsSync(path.join(process.cwd(), 'package.json'))) {

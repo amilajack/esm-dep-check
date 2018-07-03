@@ -35,7 +35,7 @@ edc('./project/package.json')
 //     "supportsEsm": false,
 //   },
 //   {
-//     "name": "cli-table2",
+//     "name": "cli-table3",
 //     "supportsEsm": false,
 //   },
 //   {
