@@ -15,7 +15,7 @@ exports.default = (userPkgPath = path.join(process.cwd(), 'package.json')) => {
 
     return {
       name: dep,
-      supportsEsm: 'module' in pkg || 'jsnext:main' in pkg
+      supportsEsm: 'module' in pkg || 'jsnext:main' in pkg || pkg.type === 'module'
     };
   });
 };
